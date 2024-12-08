@@ -16,7 +16,7 @@ get_system_volume() {
 }
 
 # Get the system volume name
-system_volume=$(get_system_volume)
+system_volume="mac OS Base System"
 
 # Display header
 echo -e "${CYAN}Bypass MDM By Assaf Dori (assafdori.com)${NC}"
